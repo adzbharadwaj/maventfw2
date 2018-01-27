@@ -49,7 +49,7 @@ public class BrowserFactory {
 
 		} else if (run_mode.equalsIgnoreCase("Local")) {
 			if (br_name.equalsIgnoreCase("Chrome")) {
-				System.setProperty("webdriver.chrome.driver", "..//drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "/Users/adityabharadwaj/MissionJob/Tools/drivers/chromedriver");
 				BrowserFactory.driver = new ChromeDriver();
 			}
 			if (br_name.equalsIgnoreCase("Firefox")) {
