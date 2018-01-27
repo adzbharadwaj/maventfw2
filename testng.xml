@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Chrome">
+  	<parameter name="bn" value="Chrome"></parameter>
+  	<parameter name="rm" value="local"></parameter>
+  	<classes>
+  		<class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
+  			<methods>
+  				<include name="VerifyPageTitle"></include>
+  				<include name="VerifyFlightDetailsHeading"></include>
+  				<include name="VerifyRegistrationProcess"></include>
+  			</methods>
+  		</class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

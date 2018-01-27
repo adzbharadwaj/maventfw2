@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Chrome(failed)">
+    <parameter name="rm" value="local"/>
+    <parameter name="bn" value="Chrome"/>
+    <classes>
+      <class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
+        <methods>
+          <include name="VerifyPageTitle" invocation-numbers="0 0 0"/>
+          <include name="closeBrowser"/>
+          <include name="VerifyFlightDetailsHeading" invocation-numbers="0"/>
+          <include name="preCondition"/>
+          <include name="VerifyRegistrationProcess" invocation-numbers="0"/>
+          <include name="getTestInput"/>
+        </methods>
+      </class> <!-- com.expedia.adnatebeta.testrunner.NTRunnerTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
