@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Chrome">
   	<parameter name="bn" value="chrome"></parameter>
-  	<parameter name="rm" value="remote"></parameter>
+  	<parameter name="rm" value="local"></parameter>
   	<classes>
   		<class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
   			<methods>

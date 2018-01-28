@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="304537" started-at="2018-01-28T08:57:44Z" finished-at="2018-01-28T09:02:49Z">
+  <suite name="Suite" duration-ms="247839" started-at="2018-01-28T09:03:53Z" finished-at="2018-01-28T09:08:01Z">
     <groups>
     </groups>
-    <test name="Chrome" duration-ms="304537" started-at="2018-01-28T08:57:44Z" finished-at="2018-01-28T09:02:49Z">
+    <test name="Chrome" duration-ms="247839" started-at="2018-01-28T09:03:53Z" finished-at="2018-01-28T09:08:01Z">
       <class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
-        <test-method status="PASS" signature="getTestInput(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="getTestInput" is-config="true" duration-ms="13" started-at="2018-01-28T14:27:44Z" finished-at="2018-01-28T14:27:44Z">
+        <test-method status="PASS" signature="getTestInput(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="getTestInput" is-config="true" duration-ms="12" started-at="2018-01-28T14:33:53Z" finished-at="2018-01-28T14:33:53Z">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestInput -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="68962" started-at="2018-01-28T14:27:45Z" finished-at="2018-01-28T14:28:54Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="69413" started-at="2018-01-28T14:33:53Z" finished-at="2018-01-28T14:35:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="VerifyPageTitle(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyPageTitle" duration-ms="28" started-at="2018-01-28T14:28:54Z" data-provider="tdp" finished-at="2018-01-28T14:28:54Z">
+        <test-method status="PASS" signature="VerifyPageTitle(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyPageTitle" duration-ms="28" started-at="2018-01-28T14:35:03Z" data-provider="tdp" finished-at="2018-01-28T14:35:03Z">
           <params>
             <param index="0">
               <value>
@@ -43,45 +43,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-01-28T14:28:54Z" finished-at="2018-01-28T14:28:54Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2018-01-28T14:35:03Z" finished-at="2018-01-28T14:35:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="68861" started-at="2018-01-28T14:28:54Z" finished-at="2018-01-28T14:30:03Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="70043" started-at="2018-01-28T14:35:03Z" finished-at="2018-01-28T14:36:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="VerifyFlightDetailsHeading([Ljava.lang.String;)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyFlightDetailsHeading" duration-ms="6228" started-at="2018-01-28T14:30:03Z" data-provider="tdp" finished-at="2018-01-28T14:30:09Z">
+        <test-method status="PASS" signature="VerifyFlightDetailsHeading([Ljava.lang.String;)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyFlightDetailsHeading" duration-ms="17605" started-at="2018-01-28T14:36:13Z" data-provider="tdp" finished-at="2018-01-28T14:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@60d1a32f]]>
+                <![CDATA[[Ljava.lang.String;@75d0911a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFlightDetailsHeading -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="130" started-at="2018-01-28T14:30:09Z" finished-at="2018-01-28T14:30:09Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="181" started-at="2018-01-28T14:36:30Z" finished-at="2018-01-28T14:36:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="72588" started-at="2018-01-28T14:30:09Z" finished-at="2018-01-28T14:31:22Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="preCondition" is-config="true" duration-ms="70168" started-at="2018-01-28T14:36:31Z" finished-at="2018-01-28T14:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="VerifyRegistrationProcess([Ljava.lang.String;)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyRegistrationProcess" duration-ms="86929" started-at="2018-01-28T14:31:22Z" data-provider="tdp" finished-at="2018-01-28T14:32:49Z">
+        <test-method status="PASS" signature="VerifyRegistrationProcess([Ljava.lang.String;)[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="VerifyRegistrationProcess" duration-ms="19662" started-at="2018-01-28T14:37:41Z" data-provider="tdp" finished-at="2018-01-28T14:38:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@531c311e]]>
+                <![CDATA[[Ljava.lang.String;@75e91545]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegistrationProcess -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="156" started-at="2018-01-28T14:32:49Z" finished-at="2018-01-28T14:32:49Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.adnatebeta.testrunner.NTRunnerTest@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="141" started-at="2018-01-28T14:38:00Z" finished-at="2018-01-28T14:38:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
