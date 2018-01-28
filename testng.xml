@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Chrome">
-  	<parameter name="bn" value="Chrome"></parameter>
-  	<parameter name="rm" value="local"></parameter>
+  	<parameter name="bn" value="chrome"></parameter>
+  	<parameter name="rm" value="remote"></parameter>
   	<classes>
   		<class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
   			<methods>

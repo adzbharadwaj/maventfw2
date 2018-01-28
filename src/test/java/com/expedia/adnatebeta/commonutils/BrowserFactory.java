@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -22,15 +23,9 @@ public class BrowserFactory {
 		if (run_mode.equalsIgnoreCase("remote")) {
 			if (br_name.equalsIgnoreCase("Chrome")) {
 				System.setProperty("webdriver.chrome.driver", "..//drivers/chromedriver");
-				//DesiredCapabilities dc = DesiredCapabilities.chrome();
+
 				ChromeOptions options = new ChromeOptions();
-				options.setCapability(CapabilityType.PLATFORM_NAME, Platform.SIERRA);
-				options.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
-				options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-				options.setAcceptInsecureCerts(true);
-				options.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
-				//dc.setBrowserName("Chrome");
-				//dc.setPlatform(Platform.SIERRA);
+				options.setCapability(CapabilityType.PLATFORM_NAME, Platform.WIN10);
 				String nod1 = Commonutil.getPropertyValue("config", "node1");
 				BrowserFactory.driver=new RemoteWebDriver(new URL(nod1), options);
 				
@@ -38,11 +33,9 @@ public class BrowserFactory {
 			}
 			if (br_name.equalsIgnoreCase("Firefox")) {
 				System.setProperty("webdriver.gecko.driver", "..//drivers/geckodriver");
-				DesiredCapabilities dc = DesiredCapabilities.firefox();
-				dc.setBrowserName("Firefox");
-				dc.setPlatform(Platform.SIERRA);
+				FirefoxOptions options = new FirefoxOptions();
 				String nod2 = Commonutil.getPropertyValue("config", "node2");
-				BrowserFactory.driver=new RemoteWebDriver(new URL(nod2), dc);
+				BrowserFactory.driver=new RemoteWebDriver(new URL(nod2), options);
 				
 				
 			}

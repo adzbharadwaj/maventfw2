@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Chrome(failed)">
+    <parameter name="rm" value="remote"/>
+    <parameter name="bn" value="chrome"/>
     <classes>
       <class name="com.expedia.adnatebeta.testrunner.NTRunnerTest">
         <methods>
-          <include name="VerifyPageTitle" invocation-numbers="0 0 0"/>
+          <include name="VerifyPageTitle"/>
           <include name="closeBrowser"/>
-          <include name="VerifyFlightDetailsHeading" invocation-numbers="0"/>
+          <include name="VerifyFlightDetailsHeading"/>
           <include name="preCondition"/>
-          <include name="VerifyRegistrationProcess" invocation-numbers="0"/>
+          <include name="VerifyRegistrationProcess"/>
           <include name="getTestInput"/>
         </methods>
       </class> <!-- com.expedia.adnatebeta.testrunner.NTRunnerTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
